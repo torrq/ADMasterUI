@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Qt / PyQt artifacts
+*.pyuic
+*.qrc_rc.py
+
+# Local configuration overrides (DO NOT COMMIT SECRETS / SYSTEM PATHS)
+config.local.json
+config.json
+
+# Local processing folders
+scratch/
+output/
+videos_with_ad/
+alignment_plots/
+
+# Heavy binaries (place ffmpeg.exe / ffprobe.exe here locally)
+bin/*.exe
+bin/*.dll
+bin/*.so
+bin/*.dylib
+!bin/.gitkeep
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

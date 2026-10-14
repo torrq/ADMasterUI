@@ -1,0 +1,63 @@
+{
+  // ===========================================================================
+  // ADMasterUI - Default Configuration Template (Standalone)
+  // ===========================================================================
+  // Copy this file to "config.local.json" or "config.json" to customize settings
+  // for your local system. (config.local.json and config.json are gitignored).
+  // ===========================================================================
+
+  // Path to custom FFmpeg executable.
+  // Leave empty ("") to automatically discover in ./bin/ or system PATH.
+  "ffmpeg_path": "",
+
+  // Path to custom FFprobe executable.
+  // Leave empty ("") to automatically discover alongside FFmpeg or in system PATH.
+  "ffprobe_path": "",
+
+  // Path to MKVToolNix mkvmerge executable.
+  // Leave empty ("") to auto-discover in Program Files, ./bin/, or system PATH.
+  "mkvmerge_path": "",
+
+  // Path to MKVToolNix mkvpropedit executable.
+  // Leave empty ("") to auto-discover in Program Files, ./bin/, or system PATH.
+  "mkvpropedit_path": "",
+
+  // Path to MKVToolNix mkvextract executable.
+  // Leave empty ("") to auto-discover in Program Files, ./bin/, or system PATH.
+  "mkvextract_path": "",
+
+  // Path to ADSync repository root or source package.
+  // Leave empty ("") to auto-discover in sibling directories or Python environment.
+  "adsync_path": "",
+
+  // Path to describealign.py script for legacy DTW alignment.
+  // Leave empty ("") to automatically resolve from sibling directories or PATH.
+  "describealign_path": "",
+
+  // Default non-linear warp engine for complex edits: "adsync" (default) or "describealign".
+  "default_warp_engine": "adsync",
+
+  // Default number of CPU threads allocated for FFmpeg encoding operations (Default: 2).
+  "default_threads": 2,
+
+  // Default target EBU R128 integrated loudness in LUFS for Night Mode tracks (Default: -16.0).
+  "default_target_i": -16.0,
+
+  // Default target True Peak ceiling in dB for Night Mode tracks (Default: -1.5).
+  "default_target_tp": -1.5,
+
+  // Default number of correlation analysis anchors sampled across the timeline (Default: 100).
+  "default_anchors": 100,
+
+  // Whether to enable 3-band speech suppression during acoustic alignment (Default: true).
+  "default_multiband": true,
+
+  // Whether to enable automatic acoustic PAL speed probing (Default: true).
+  "default_speed_detect": true,
+
+  // Whether to overwrite existing deliverables in the output directory (Default: false).
+  "default_overwrite": false,
+
+  // UI Theme: "dark" (default) or "light".
+  "theme": "dark"
+}
